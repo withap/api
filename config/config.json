@@ -1,0 +1,57 @@
+{
+  "port": 5530,
+  "siteUrl": {
+    "main": "withap.com",
+    "mobile": "m.withap.com",
+    "api": "api.withap.com"
+  },
+  "socialApp": {
+    "fb": {
+      "appId": "1626647327578106",
+      "secretKey": "b9c530303cc7e5fa9cf375e30abcc392"
+    }
+  },
+  "timeZone": "Europe/Kiev",
+  "locateProportion": 1.3143243,
+  "security": {
+    "tokenLife": 360000
+  },
+  "mongoose": {
+    "uri": "mongodb://127.0.0.1/withap",
+    "options": {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  },
+  "session": {
+    "secret": "firstNearbythenWitness",
+    "key": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
+  },
+  "default": {
+    "api": {
+      "version": "v1"
+    },
+    "user": {
+      "username": "user@withap.com",
+      "password": "userPass"
+    },
+    "client": {
+      "name": "Android API v1",
+      "clientId": "android",
+      "clientSecret": "1P04ka9lTe69l1ub1ua0na1U61tDIm04Ky"
+    }
+  },
+  "cloudinary": {
+    "cloud_name": "withap",
+    "api_key": "698349169312615",
+    "api_secret": "aGkET8NHgsfIEKaMNznt42GbWvo"
+  }
+}
